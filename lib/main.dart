@@ -3,6 +3,7 @@ import 'package:bmi_app/animated_opacity.dart';
 import 'package:bmi_app/clip_r_rect.dart';
 import 'package:bmi_app/cross_fade_animate.dart';
 import 'package:bmi_app/list_wheel_scrollveiw.dart';
+import 'package:bmi_app/mapping_lists.dart';
 import 'package:flutter/material.dart';
 
 import 'hero_animation.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: MyHeroAnimation(),
+      home: MyLists(),
     );
   }
 }
